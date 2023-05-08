@@ -1,0 +1,264 @@
+@startuml
+
+title __UTILS's Class Diagram__\n
+
+  namespace edu.ktu.ds.lab3.utils {
+    interface edu.ktu.ds.lab3.utils.EvaluableMap {
+        {abstract} + getLastUpdated()
+        + getMaxChainSize()
+        {abstract} + getNumberOfOccupied()
+        {abstract} + getRehashesCounter()
+        {abstract} + getTableCapacity()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    class edu.ktu.ds.lab3.utils.HashManager {
+        {static} + hash()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    enum HashType {
+      DIVISION
+      JCF
+      JCF7
+      MULTIPLICATION
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    class edu.ktu.ds.lab3.utils.HashMap {
+        {static} + DEFAULT_HASH_TYPE : HashType
+        {static} + DEFAULT_INITIAL_CAPACITY : int
+        {static} + DEFAULT_LOAD_FACTOR : float
+        # chainsCounter : int
+        # lastUpdatedChain : int
+        # loadFactor : float
+        # maxChainSize : int
+        # rehashesCounter : int
+        # size : int
+        # table : Node<K, V>[]
+        + HashMap()
+        + HashMap()
+        + HashMap()
+        + HashMap()
+        + HashMap()
+        + clear()
+        + contains()
+        + containsValue()
+        + get()
+        + getLastUpdated()
+        + getMaxChainSize()
+        + getNumberOfOccupied()
+        + getRehashesCounter()
+        + getTableCapacity()
+        + isEmpty()
+        + put()
+        + remove()
+        + replace()
+        + size()
+        + toString()
+        - getInChain()
+        - rehash()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    class edu.ktu.ds.lab3.utils.HashMap.Node {
+        # next : Node<K, V>
+        + toString()
+        # Node()
+        # Node()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    class edu.ktu.ds.lab3.utils.HashMapOa {
+        {static} + DEFAULT_HASH_TYPE : HashType
+        {static} + DEFAULT_INITIAL_CAPACITY : int
+        {static} + DEFAULT_LOAD_FACTOR : float
+        {static} + DEFAULT_OPEN_ADDRESSING_TYPE : OpenAddressingType
+        # lastUpdated : int
+        # loadFactor : float
+        # numberOfOccupied : int
+        # rehashesCounter : int
+        # size : int
+        # table : Entry<K, V>[]
+        - DELETED : Entry<K, V>
+        + HashMapOa()
+        + HashMapOa()
+        + HashMapOa()
+        + HashMapOa()
+        + HashMapOa()
+        + clear()
+        + contains()
+        + containsValue()
+        + get()
+        + getLastUpdated()
+        + getNumberOfOccupied()
+        + getRehashesCounter()
+        + getTableCapacity()
+        + isEmpty()
+        + put()
+        + remove()
+        + replace()
+        + size()
+        + toString()
+        - calculatePosition()
+        - findPosition()
+        - rehash()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    class edu.ktu.ds.lab3.utils.HashMapOa.Entry {
+        + toString()
+        # Entry()
+        # Entry()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    enum OpenAddressingType {
+      DOUBLE_HASHING
+      LINEAR
+      QUADRATIC
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    class edu.ktu.ds.lab3.utils.Ks {
+        {static} - dataFolder : String
+        {static} - errorNr : int
+        {static} - formatStartOfLine : boolean
+        {static} - keyboard : BufferedReader
+        {static} - lineNr : int
+        {static} - serr : PrintStream
+        {static} - sout : PrintStream
+        {static} + er()
+        {static} + erf()
+        {static} + ern()
+        {static} + getDataFolder()
+        {static} + giveDouble()
+        {static} + giveDouble()
+        {static} + giveFileName()
+        {static} + giveInt()
+        {static} + giveInt()
+        {static} + giveLong()
+        {static} + giveLong()
+        {static} + giveString()
+        {static} + ou()
+        {static} + ouf()
+        {static} + oufln()
+        {static} + oun()
+        {static} + ounn()
+        {static} + out()
+        {static} + printMapModel()
+        {static} + setDataFolder()
+        {static} - split()
+        {static} - summaryStatistics()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    interface edu.ktu.ds.lab3.utils.Map {
+        {abstract} + clear()
+        {abstract} + contains()
+        {abstract} + containsValue()
+        {abstract} + get()
+        {abstract} + isEmpty()
+        {abstract} + put()
+        {abstract} + remove()
+        {abstract} + replace()
+        {abstract} + size()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    interface edu.ktu.ds.lab3.utils.Parsable {
+        {abstract} + parse()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    class edu.ktu.ds.lab3.utils.ParsableHashMap {
+        - keyCreateFunction : Function<String, K>
+        - valueCreateFunction : Function<String, V>
+        + ParsableHashMap()
+        + ParsableHashMap()
+        + getMapModel()
+        + load()
+        + println()
+        + put()
+        + save()
+        {static} - create()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    class edu.ktu.ds.lab3.utils.ParsableHashMapOa {
+        - keyCreateFunction : Function<String, K>
+        - valueCreateFunction : Function<String, V>
+        + ParsableHashMapOa()
+        + ParsableHashMapOa()
+        + getMapModel()
+        + load()
+        + println()
+        + put()
+        + save()
+        {static} - create()
+    }
+  }
+  
+
+  namespace edu.ktu.ds.lab3.utils {
+    interface edu.ktu.ds.lab3.utils.ParsableMap {
+        {abstract} + getMapModel()
+        {abstract} + load()
+        {abstract} + println()
+        {abstract} + put()
+        {abstract} + save()
+    }
+  }
+  
+
+  edu.ktu.ds.lab3.utils.HashManager +-down- edu.ktu.ds.lab3.utils.HashManager.HashType
+  edu.ktu.ds.lab3.utils.HashMap .up.|> edu.ktu.ds.lab3.utils.EvaluableMap
+  edu.ktu.ds.lab3.utils.HashMap o-- edu.ktu.ds.lab3.utils.HashManager.HashType : ht
+  edu.ktu.ds.lab3.utils.HashMap +-down- edu.ktu.ds.lab3.utils.HashMap.Node
+  edu.ktu.ds.lab3.utils.HashMap.Node o-- K : key
+  edu.ktu.ds.lab3.utils.HashMap.Node o-- V : value
+  edu.ktu.ds.lab3.utils.HashMapOa .up.|> edu.ktu.ds.lab3.utils.EvaluableMap
+  edu.ktu.ds.lab3.utils.HashMapOa o-- edu.ktu.ds.lab3.utils.HashManager.HashType : ht
+  edu.ktu.ds.lab3.utils.HashMapOa o-- edu.ktu.ds.lab3.utils.HashMapOa.OpenAddressingType : oaType
+  edu.ktu.ds.lab3.utils.HashMapOa +-down- edu.ktu.ds.lab3.utils.HashMapOa.Entry
+  edu.ktu.ds.lab3.utils.HashMapOa +-down- edu.ktu.ds.lab3.utils.HashMapOa.OpenAddressingType
+  edu.ktu.ds.lab3.utils.HashMapOa.Entry o-- K : key
+  edu.ktu.ds.lab3.utils.HashMapOa.Entry o-- V : value
+  edu.ktu.ds.lab3.utils.ParsableHashMap .up.|> edu.ktu.ds.lab3.utils.ParsableMap
+  edu.ktu.ds.lab3.utils.ParsableHashMap -up-|> edu.ktu.ds.lab3.utils.HashMap
+  edu.ktu.ds.lab3.utils.ParsableHashMapOa .up.|> edu.ktu.ds.lab3.utils.ParsableMap
+  edu.ktu.ds.lab3.utils.ParsableHashMapOa -up-|> edu.ktu.ds.lab3.utils.HashMapOa
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

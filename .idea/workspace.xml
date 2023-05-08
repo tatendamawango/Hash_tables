@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="600a0afc-57ce-41ba-b7b6-9573d99cf7e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
+  <component name="ProjectId" id="1j0vCQu7gKZdWYHYFkSI8xGMGcc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/tmawa/Desktop/Semester3/LW1_intro"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BG\Downloads\Lab3_MaisosLenteles2021_1010\Lab3_MaisosLenteles_Draft\src\main\java\edu\ktu\ds\lab3" />
+      <recent name="C:\Users\BG\Downloads\Lab3_MaisosLenteles_2021\Lab3_MaisosLenteles\src\main\java\edu\ktu\ds\lab3\gui\Swing" />
+      <recent name="C:\Users\BG\Downloads\Lab3_MaisosLenteles_2021\Lab3_MaisosLenteles\src\main\java\edu\ktu\ds\lab3\demo\fx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BG\Downloads\Lab3_MaisosLenteles1025\Lab3_MaisosLenteles\diagrams" />
+      <recent name="C:\Users\BG\Downloads\Lab3_MaisosLenteles_Draft1018\Lab3_MaisosLenteles_Draft1018\diagrams" />
+      <recent name="C:\Users\BG\Downloads\Lab3_MaisosLenteles2021_1010\Lab3_MaisosLenteles\diagrams" />
+      <recent name="C:\Users\BG\Downloads\Lab3_MaisosLenteles_2021\Lab3_MaisosLenteles\diagrams" />
+      <recent name="C:\Users\PC\Desktop\DS2020\laborai2020\Lab3_MaisosLenteles_Maven\diagrams" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.ktu.ds.lab3.gui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.ktu.ds.lab3.utils" />
+      <recent name="edu.ktu.ds.lab3.demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ManualTest">
+    <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ktu.ds.lab3.demo.Benchmark" />
+      <module name="Lab3_HashTables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ktu.ds.lab3.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="edu.ktu.ds.lab3.demo.DemoExecution" />
+      <module name="Lab3_HashTables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ktu.ds.lab3.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoExecutionSwing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ktu.ds.lab3.demo.DemoExecutionSwing" />
+      <module name="Lab3_HashTables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ktu.ds.lab3.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManualTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ktu.ds.lab3.demo.ManualTest" />
+      <module name="Lab3_HashTables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ktu.ds.lab3.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3_HashTables" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ktu.ds.lab3.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.ktu.ds.lab3.demo" />
+      <option name="MAIN_CLASS_NAME" value="edu.ktu.ds.lab3.demo.ExampleTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Benchmark" />
+      <item itemvalue="Application.DemoExecutionSwing" />
+      <item itemvalue="Application.DemoExecution" />
+      <item itemvalue="Application.ManualTest" />
+      <item itemvalue="JUnit.ExampleTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ManualTest" />
+        <item itemvalue="Application.DemoExecution" />
+        <item itemvalue="Application.Benchmark" />
+        <item itemvalue="JUnit.ExampleTests" />
+        <item itemvalue="Application.DemoExecutionSwing" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="600a0afc-57ce-41ba-b7b6-9573d99cf7e5" name="Default Changelist" comment="" />
+      <created>1602953696498</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602953696498</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/ktu/ds/lab3/gui/MainWindow.java</url>
+          <line>457</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
