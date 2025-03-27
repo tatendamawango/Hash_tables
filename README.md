@@ -25,32 +25,6 @@ This project is a comprehensive demonstration of various hash table implementati
 
 ---
 
-## 🗂️ Project Structure
-
-```
-📁 demo
-    ├── Benchmark.java
-    ├── Car.java
-    ├── CarsGenerator.java
-    ├── DemoExecution.java
-    └── ManualTest.java
-
-📁 gui
-    ├── MainWindowMenu.java
-    └── ValidationException.java
-
-📁 utils
-    ├── HashMapOa.java
-    ├── HashMap.java
-    ├── HashManager.java
-    ├── ParsableHashMap.java
-    ├── ParsableHashMapOa.java
-    ├── Map.java
-    └── Parsable.java
-```
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
